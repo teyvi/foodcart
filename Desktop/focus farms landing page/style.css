@@ -1,0 +1,152 @@
+/* Replace #color with actual color codes from the image */
+body {
+    background-color: #FFFFFF;
+    color: #556B2F;
+    font-family: Arial, sans-serif;
+   }
+   
+   nav ul li a {
+    color: #556B2F;
+    text-decoration: none;
+   }
+   
+   .hover-button {
+    background-color: #6B8E23;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   .hover-button:hover {
+    background-color: #8B4513;
+    color: #FFFFFF;
+   }
+   
+   /* Other styles */
+   nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+   }
+   
+   nav ul li {
+    display:inline-block;
+    margin-right:10px;
+   }
+   
+   input[type=text] {
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid #6B8E23;
+   }
+   
+   button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #6B8E23;
+    background-color: #6B8E23;
+    color: #FFFFFF;
+    cursor: pointer;
+   }
+   
+   header {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+   }
+   
+   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+   }
+   
+   header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   header h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+   }
+   
+   header p {
+    font-size: 20px;
+    color: #FFFFFF;
+   }
+   
+   section {
+    padding: 20px;
+   }
+   
+   section h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #556B2F;
+   }
+   
+   section p {
+    text-align: center;
+    font-size: 18px;
+    color: #556B2F;
+   }
+   
+   section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   section ul li {
+    margin: 10px;
+    font-size: 16px;
+    color: #556B2F;
+   }
+   
+   .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .project h3 {
+    font-size: 30px;
+    color: #556B2F;
+   }
+   
+   .project p {
+    font-size: 16px;
+    color: #556B2F;
+   }
+   
+   .testimony {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .testimony p {
+    font-size: 16px;
+    color: #556B2F;
+   }
+   
+   .testimony span {
+    font-size: 14px;
+    color: #556B2F;
+   }
+   
+   footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #556B2F;
+   }
+   
+   

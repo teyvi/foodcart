@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5e3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+   
+}
+
+header {
+    text-align: center;
+    background-color: #f0e0a0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #d89f4e;
+}
+
+/* Services section */
+#services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service {
+    background-color: #f7d6a0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Products section */
+#products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background-color: #f7d6a0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Team section */
+#team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #f7d6a0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #d89f4e;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
