@@ -4,39 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodcart</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <!-- linking css of header -->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- icon stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 <body>
-    <div class="container px-0">
+    <div class="container">
+
+
+
         <!-- enter your navbar elements below this div open tag -->
         <div class="row">
             <p class ="p-3 fs-5 border bg-light">Navbar</p>
         </div>
 
-        <div class="row gx-1">
+
+
+
+        <div class="row ps-0 pe-0 gx-1">
         <!-- enter your category items below this div open tag -->
-            <div class="col-4 ">
+            <div class="col-3 auto">
                 <p class ="p-3 fs-5 border bg-light">Categories</p>
             </div>
 
         <!-- enter your Hero elements below this div open tag -->
+        <div class="col">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
 
-                <div class="col-8">
-                    <p class ="p-3 fs-5 border bg-light">Hero Element</p>
+                <div class="carousel-item active c-item">
+                    <img src="./assets/images/waldemar-5Y-3KXqZzFY-unsplash.jpg" class="d-block w-100 c-img" alt="Slide1">
+                    <div class="carousel-caption top-0 mt-5">
+                      <h1 class="display-1 fw-bolder text-capitalize">FLASH SALE</h1>
+                      <p class="mt-2 fs-5 text-uppercase ">Shop our seasonal products at 20% discount.</p>
+                    </div>
+                    <!-- The form search button -->
+                    <form class="example" action="action_page.php" >
+                        <input type="text" placeholder="Search by Product, Seller, Category" name="search">
+                        <button type="submit" ><i class="fa fa-search"></i></button>
+                    </form>
+
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="./assets/images/jakub-kapusnak-vLQzopDRSNI-unsplash.jpg" class="d-block w-100 c-img" alt="Slide2">
+                    <div class="carousel-caption top-0 mt-5">
+                      <h1 class="display-1 fw-bolder text-capitalize">FREE DELIVERY</h1>
+                      <p class="mt-2 fs-5 text-uppercase ">Free delivery on fish,meat and diary products</p>
+                    </div>
+                    <!-- The form search button -->
+                    <form class="example" action="action_page.php" >
+                        <input type="text" placeholder="Search by Product, Seller, Category.." name="search">
+                        <button type="submit" ><i class="fa fa-search"></i></button>
+                    </form>
+                    
+                  </div>
+                  <div class="carousel-item c-item">
+                    <img src="./assets/images/jacopo-maia--gOUx23DNks-unsplash.jpg" class="d-block w-100 c-img" alt="Slide3">
+                    <div class="carousel-caption top-0 mt-5">
+                      <h1 class="display-1 fw-bolder text-capitalize">BUY NOW</h1>
+                      <p class="mt-2 fs-5 text-uppercase ">Get all you produce needs at once</p>
+                    </div>
+                    <!-- The form search button -->
+                    <form class="example" action="action_page.php" >
+                        <input type="text" placeholder="Search by Product, Seller, Category" name="search">
+                        <button type="submit" ><i class="fa fa-search"></i></button>
+                    </form>
+                  </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
                 </div>
         </div>
+
+
+
 
         <!-- enter your Flash sale below this div open tag -->
         <div class="row">
             <p class ="p-3 fs-5 border bg-light">Flash Sale</p>
         </div>
 
+
+
+
         <!-- enter your Top items below this div open tag -->
         <div class="row">
             <p class ="p-3 fs-5 border bg-light">Top-items</p>
         </div>
+
+
+
 
         <!-- enter your Free delivery items below this div open tag -->
 
@@ -44,13 +115,13 @@
             <p class ="p-3 fs-5 border bg-light">Free delivery</p>
         </div>
 
+
+
+
         <!-- enter your Footer items below this div open tag -->        
         <div class="row">
             <p class ="p-3 fs-5 border bg-light">Footer items</p>
         </div>
-
-        
-
 
     </div>
     
