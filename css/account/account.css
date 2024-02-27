@@ -1,56 +1,65 @@
-*{
-margin : 0;
-padding: 0;
-font-family: 'poppins, sans-serif';
-box-sizing: border-box;
-}
-.container{
-    width:100%;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins, sans-serif';
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(119, 128, 0, 0.671), rgb(0, 128, 28)), url(./images/veges.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
-}
-
-.form-box{
+  }
+  
+  .form-box {
     width: 90%;
     max-width: 450px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
-    background:#fff;
+    transform: translate(-50%, -50%);
+    background: #fff;
     padding: 50px 60px 70px;
     text-align: center;
-}
-
-.form-box h1{
+  }
+  
+  .form-box h1 {
     font-size: 30px;
     margin-bottom: 60px;
-    color:blue;
+    color: blue;
     position: relative;
-    
-}
-
-.form-box h1::after{
-    content:'' ;
+  }
+  
+  .form-box h1::after {
+    content: '';
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background:#3c00a0 ;
+    background: #3c00a0;
     position: absolute;
     bottom: -12px;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
-
-}
-/* 
-.input-field{
+  }
+  
+  .input-group {
+    margin-bottom: 20px; /* Adjusted margin for spacing between input groups */
+  }
+  
+  input {
+    width: calc(100% - 30px); /* Adjusted width to leave space for padding */
     background: #eaeaea;
-    margin: 15px 0;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-
-} */
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    margin-top: 10px; /* Adjusted margin-top for spacing between icon and input */
+  }
+  
+  /* Add styling for icons if they are present within the input-group */
+  .icon {
+    margin-right: 10px; /* Adjusted margin-right for spacing between icon and input */
+  }
+  
