@@ -1,0 +1,113 @@
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+
+}
+
+.c-item{
+    height: 480px;
+
+}
+
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 15px;
+    border: 0px solid white;
+    float: left;
+    width: 60%;
+    background: #f1f1f1;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align:left;
+    border-radius: 15px;
+
+  }
+
+  /* Style the submit button */
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2195f3ad;
+    color: white;
+    font-size: 17px;
+    border: 0px solid white;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 75%;
+
+
+  }
+
+
+  /* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+
+
+
+  /* header.css (or create a new file for the navbar) */
+
+/* Navbar styling */
+.navbar {
+  padding: 1rem; /* Add some padding for spacing */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Search bar styling */
+.example {
+  display: flex;
+  align-items: center;
+}
+
+.example input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.example button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Nav links styling */
+.navbar-nav .nav-link {
+  margin-left: 1rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Optional: Adjust the responsive behavior */
+@media (max-width: 768px) {
+  .navbar-nav {
+      margin-top: 1rem;
+  }
+}
