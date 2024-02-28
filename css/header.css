@@ -53,13 +53,5 @@ form.example button {
 
   }
 
-
-  /* Clear floats */
-form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   
   
